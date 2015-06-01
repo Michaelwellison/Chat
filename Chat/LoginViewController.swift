@@ -10,13 +10,23 @@ import UIKit
 import Parse
 
 class LoginViewController: UIViewController {
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
     
-    
+    @IBOutlet weak var activityView: UIActivityIndicatorView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+    }
+    
+    @IBAction func didPressSignInButton(sender: AnyObject) {
+        
+        performSegueWithIdentifier("loginSegue", sender: nil)
+    }
+    
+    @IBAction func didPressSignUpButton(sender: AnyObject) {
     }
 
     override func didReceiveMemoryWarning() {
