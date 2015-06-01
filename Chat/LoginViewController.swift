@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  LoginViewController.swift
 //  Chat
 //
 //  Created by Michael Ellison on 5/31/15.
@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import Parse
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {

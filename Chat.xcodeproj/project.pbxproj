@@ -8,11 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		136561C51B1C386B00FFF6ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136561C41B1C386B00FFF6ED /* AppDelegate.swift */; };
-		136561C71B1C386B00FFF6ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136561C61B1C386B00FFF6ED /* ViewController.swift */; };
+		136561C71B1C386B00FFF6ED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136561C61B1C386B00FFF6ED /* LoginViewController.swift */; };
 		136561CA1B1C386B00FFF6ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 136561C81B1C386B00FFF6ED /* Main.storyboard */; };
 		136561CC1B1C386B00FFF6ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 136561CB1B1C386B00FFF6ED /* Images.xcassets */; };
 		136561CF1B1C386B00FFF6ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 136561CD1B1C386B00FFF6ED /* LaunchScreen.xib */; };
 		136561DB1B1C386B00FFF6ED /* ChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136561DA1B1C386B00FFF6ED /* ChatTests.swift */; };
+		136561E51B1C39D400FFF6ED /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136561E41B1C39D400FFF6ED /* MessagesViewController.swift */; };
+		136561EB1B1C3D6700FFF6ED /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136561EA1B1C3D6700FFF6ED /* AudioToolbox.framework */; };
+		136561ED1B1C3D6E00FFF6ED /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136561EC1B1C3D6E00FFF6ED /* CFNetwork.framework */; };
+		136561EF1B1C3D7600FFF6ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136561EE1B1C3D7600FFF6ED /* CoreGraphics.framework */; };
+		136561F11B1C3D7F00FFF6ED /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136561F01B1C3D7F00FFF6ED /* MobileCoreServices.framework */; };
+		136561F31B1C3D8700FFF6ED /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136561F21B1C3D8700FFF6ED /* QuartzCore.framework */; };
+		136561F51B1C3D9500FFF6ED /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136561F41B1C3D9500FFF6ED /* Security.framework */; };
+		136561F71B1C3DAB00FFF6ED /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136561F61B1C3DAB00FFF6ED /* CoreLocation.framework */; };
+		136561F91B1C3DB200FFF6ED /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136561F81B1C3DB200FFF6ED /* StoreKit.framework */; };
+		136561FB1B1C3DBD00FFF6ED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136561FA1B1C3DBD00FFF6ED /* SystemConfiguration.framework */; };
+		136561FD1B1C3DC700FFF6ED /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 136561FC1B1C3DC700FFF6ED /* libz.dylib */; };
+		136561FF1B1C3DD200FFF6ED /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 136561FE1B1C3DD200FFF6ED /* libsqlite3.dylib */; };
+		136562011B1C402400FFF6ED /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136562001B1C402400FFF6ED /* Parse.framework */; };
+		136562031B1C402E00FFF6ED /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136562021B1C402E00FFF6ED /* Bolts.framework */; };
+		136562051B1C404800FFF6ED /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136562041B1C404800FFF6ED /* ParseUI.framework */; };
+		136562071B1C405100FFF6ED /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136562061B1C405100FFF6ED /* ParseFacebookUtilsV4.framework */; };
+		136562091B1C405800FFF6ED /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 136562081B1C405800FFF6ED /* ParseFacebookUtils.framework */; };
+		1365620B1B1C405E00FFF6ED /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1365620A1B1C405E00FFF6ED /* ParseCrashReporting.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +47,31 @@
 		136561BF1B1C386B00FFF6ED /* Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		136561C31B1C386B00FFF6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		136561C41B1C386B00FFF6ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		136561C61B1C386B00FFF6ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		136561C61B1C386B00FFF6ED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		136561C91B1C386B00FFF6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		136561CB1B1C386B00FFF6ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		136561CE1B1C386B00FFF6ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		136561D41B1C386B00FFF6ED /* ChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		136561D91B1C386B00FFF6ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		136561DA1B1C386B00FFF6ED /* ChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTests.swift; sourceTree = "<group>"; };
+		136561E41B1C39D400FFF6ED /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		136561EA1B1C3D6700FFF6ED /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		136561EC1B1C3D6E00FFF6ED /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		136561EE1B1C3D7600FFF6ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		136561F01B1C3D7F00FFF6ED /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		136561F21B1C3D8700FFF6ED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		136561F41B1C3D9500FFF6ED /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		136561F61B1C3DAB00FFF6ED /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		136561F81B1C3DB200FFF6ED /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		136561FA1B1C3DBD00FFF6ED /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		136561FC1B1C3DC700FFF6ED /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		136561FE1B1C3DD200FFF6ED /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		136562001B1C402400FFF6ED /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../parse-library-1.7.4/Parse.framework"; sourceTree = "<group>"; };
+		136562021B1C402E00FFF6ED /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../parse-library-1.7.4/Bolts.framework"; sourceTree = "<group>"; };
+		136562041B1C404800FFF6ED /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "../../parse-library-1.7.4/ParseUI.framework"; sourceTree = "<group>"; };
+		136562061B1C405100FFF6ED /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtilsV4.framework; path = "../../parse-library-1.7.4/ParseFacebookUtilsV4.framework"; sourceTree = "<group>"; };
+		136562081B1C405800FFF6ED /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../parse-library-1.7.4/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		1365620A1B1C405E00FFF6ED /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseCrashReporting.framework; path = "../../parse-library-1.7.4/ParseCrashReporting.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +79,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				136561FF1B1C3DD200FFF6ED /* libsqlite3.dylib in Frameworks */,
+				136561FD1B1C3DC700FFF6ED /* libz.dylib in Frameworks */,
+				136562051B1C404800FFF6ED /* ParseUI.framework in Frameworks */,
+				1365620B1B1C405E00FFF6ED /* ParseCrashReporting.framework in Frameworks */,
+				136561FB1B1C3DBD00FFF6ED /* SystemConfiguration.framework in Frameworks */,
+				136561F91B1C3DB200FFF6ED /* StoreKit.framework in Frameworks */,
+				136561F71B1C3DAB00FFF6ED /* CoreLocation.framework in Frameworks */,
+				136561F51B1C3D9500FFF6ED /* Security.framework in Frameworks */,
+				136561F31B1C3D8700FFF6ED /* QuartzCore.framework in Frameworks */,
+				136562031B1C402E00FFF6ED /* Bolts.framework in Frameworks */,
+				136561F11B1C3D7F00FFF6ED /* MobileCoreServices.framework in Frameworks */,
+				136561EF1B1C3D7600FFF6ED /* CoreGraphics.framework in Frameworks */,
+				136561ED1B1C3D6E00FFF6ED /* CFNetwork.framework in Frameworks */,
+				136562011B1C402400FFF6ED /* Parse.framework in Frameworks */,
+				136561EB1B1C3D6700FFF6ED /* AudioToolbox.framework in Frameworks */,
+				136562091B1C405800FFF6ED /* ParseFacebookUtils.framework in Frameworks */,
+				136562071B1C405100FFF6ED /* ParseFacebookUtilsV4.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +115,23 @@
 				136561C11B1C386B00FFF6ED /* Chat */,
 				136561D71B1C386B00FFF6ED /* ChatTests */,
 				136561C01B1C386B00FFF6ED /* Products */,
+				136562001B1C402400FFF6ED /* Parse.framework */,
+				136562021B1C402E00FFF6ED /* Bolts.framework */,
+				1365620A1B1C405E00FFF6ED /* ParseCrashReporting.framework */,
+				136562081B1C405800FFF6ED /* ParseFacebookUtils.framework */,
+				136562061B1C405100FFF6ED /* ParseFacebookUtilsV4.framework */,
+				136562041B1C404800FFF6ED /* ParseUI.framework */,
+				136561FE1B1C3DD200FFF6ED /* libsqlite3.dylib */,
+				136561FC1B1C3DC700FFF6ED /* libz.dylib */,
+				136561FA1B1C3DBD00FFF6ED /* SystemConfiguration.framework */,
+				136561F81B1C3DB200FFF6ED /* StoreKit.framework */,
+				136561F61B1C3DAB00FFF6ED /* CoreLocation.framework */,
+				136561F41B1C3D9500FFF6ED /* Security.framework */,
+				136561F21B1C3D8700FFF6ED /* QuartzCore.framework */,
+				136561F01B1C3D7F00FFF6ED /* MobileCoreServices.framework */,
+				136561EE1B1C3D7600FFF6ED /* CoreGraphics.framework */,
+				136561EC1B1C3D6E00FFF6ED /* CFNetwork.framework */,
+				136561EA1B1C3D6700FFF6ED /* AudioToolbox.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,7 +148,8 @@
 			isa = PBXGroup;
 			children = (
 				136561C41B1C386B00FFF6ED /* AppDelegate.swift */,
-				136561C61B1C386B00FFF6ED /* ViewController.swift */,
+				136561C61B1C386B00FFF6ED /* LoginViewController.swift */,
+				136561E41B1C39D400FFF6ED /* MessagesViewController.swift */,
 				136561C81B1C386B00FFF6ED /* Main.storyboard */,
 				136561CB1B1C386B00FFF6ED /* Images.xcassets */,
 				136561CD1B1C386B00FFF6ED /* LaunchScreen.xib */,
@@ -212,7 +283,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				136561C71B1C386B00FFF6ED /* ViewController.swift in Sources */,
+				136561E51B1C39D400FFF6ED /* MessagesViewController.swift in Sources */,
+				136561C71B1C386B00FFF6ED /* LoginViewController.swift in Sources */,
 				136561C51B1C386B00FFF6ED /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +412,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/michaelellison1/Dropbox/Programming/parse-library-1.7.4",
+				);
 				INFOPLIST_FILE = Chat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -350,6 +426,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/michaelellison1/Dropbox/Programming/parse-library-1.7.4",
+				);
 				INFOPLIST_FILE = Chat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
