@@ -27,6 +27,14 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func didPressSignUpButton(sender: AnyObject) {
+        var user = PFUser()
+        
+        user.username = emailField.text
+        user.password = passwordField.text
+    
+        user.signUpInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+            self.performSegueWithIdentifier("loginSegue", sender: nil)
+        }
     }
 
     override func didReceiveMemoryWarning() {
