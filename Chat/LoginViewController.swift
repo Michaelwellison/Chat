@@ -23,7 +23,15 @@ class LoginViewController: UIViewController {
     
     @IBAction func didPressSignInButton(sender: AnyObject) {
         
-        performSegueWithIdentifier("loginSegue", sender: nil)
+        PFUser.logInWithUsernameInBackground(emailField.text, password: passwordField.text) { (user: PFUser?, error: NSError?) -> Void in
+            if error == nil {
+                self.performSegueWithIdentifier("loginSegue", sender: nil)
+            } else {
+                var alert = UIAlertView(title: "Ooops", message: error?.description, delegate: nil, cancelButtonTitle: "Ok")
+                alert.show()
+            }
+        }
+        
     }
     
     @IBAction func didPressSignUpButton(sender: AnyObject) {
@@ -33,7 +41,12 @@ class LoginViewController: UIViewController {
         user.password = passwordField.text
     
         user.signUpInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+            if success == true {
             self.performSegueWithIdentifier("loginSegue", sender: nil)
+            } else {
+                var alert = UIAlertView(title: "Ooops", message: error?.description, delegate: nil, cancelButtonTitle: "Ok")
+                alert.show()
+            }
         }
     }
 
