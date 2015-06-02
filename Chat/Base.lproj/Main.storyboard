@@ -79,7 +79,7 @@
         <!--Messages View Controller-->
         <scene sceneID="0WS-ez-hFr">
             <objects>
-                <viewController title="Messages View Controller" id="HdY-mv-kJJ" customClass="MessagesViewController" sceneMemberID="viewController">
+                <viewController title="Messages View Controller" automaticallyAdjustsScrollViewInsets="NO" id="HdY-mv-kJJ" customClass="MessagesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eUQ-NC-Hig">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
